@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="" alt="Magknight Logo" width="170">
+<img src="" alt="Magknight Logo">
 <br><b>787</b>: Aviator's Edition<hr>Documentation
 </h1>
 
