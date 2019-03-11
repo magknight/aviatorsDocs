@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://https://flamboyant-mccarthy-ce7e97.netlify.com/docs/assets/images/branding/logoGithub.png" alt="Magknight Logo">
+<img src="https://https://flamboyant-mccarthy-ce7e97.netlify.com/assets/images/branding/logoGithub.png" alt="Magknight Logo">
 <br><b>787</b>: Aviator's Edition<hr>Documentation
 </h1>
 
