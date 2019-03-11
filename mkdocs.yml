@@ -1,0 +1,26 @@
+site_name: 'Magknight Documentation'
+repo_name: 'GitHub'
+repo_url: 'https://github.com/magknight/aviatorsDocs'
+site_description: ''
+site_author: 'magknight'
+copyright: 'magknight'
+theme:
+  name: 'material'
+  language: 'en'
+  shortcuts:
+        help: 191    # ?
+        next: 78     # n
+        previous: 80 # p
+        search: 83   # s
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+markdown_extensions:
+    - admonition
+    - codehilite
+    - footnotes
+    - toc:
+        permalink: True
+        separator: "_"
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
