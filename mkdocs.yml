@@ -24,6 +24,10 @@ markdown_extensions:
     - toc:
         permalink: True
         separator: "_"
+nav:
+  - Home: "index.md"
+  - Frequently Asked Questions: "faq.md"
+  - About: "about.md"
 extra:
   social:
     - type: globe
