@@ -41,5 +41,7 @@ extra:
     - type: facebook
       link: https://www.facebook.com/magknightAv
 
+extra_css:
+  - assets/stylesheets/colours.css
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
