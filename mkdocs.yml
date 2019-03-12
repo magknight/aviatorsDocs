@@ -22,5 +22,14 @@ markdown_extensions:
     - toc:
         permalink: True
         separator: "_"
+extra:
+  social:
+    - type: globe
+      link: http://magknight.org
+    - type: twitter
+      link: https://twitter.com/magknightav
+    - type: facebook
+      link: https://www.facebook.com/magknightAv
+
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
