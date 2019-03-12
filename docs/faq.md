@@ -1,4 +1,3 @@
-hero: Answers to your biggest questions
 path: tree/master/docs/faq
 source: faq.md
 

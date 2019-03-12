@@ -17,11 +17,13 @@ theme:
     primary: "rgb(109, 152, 186)"
     accent: "rgb(153, 50, 88)"
   custom_dir: 'theme'
+feature:
+  tabs: True
+  hero: true
 markdown_extensions:
     - admonition
     - codehilite
     - footnotes
-    - meta
     - toc:
         permalink: True
         separator: "_"
