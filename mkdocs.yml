@@ -13,9 +13,6 @@ theme:
         next: 78     # n
         previous: 80 # p
         search: 83   # s
-  palette:
-    primary: "pink"
-    accent: "cyan"
   custom_dir: 'theme'
 feature:
   tabs: True
@@ -41,7 +38,5 @@ extra:
     - type: facebook
       link: https://www.facebook.com/magknightAv
 
-extra_css:
-  - assets/stylesheets/colours.css
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
