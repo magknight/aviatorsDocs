@@ -1,7 +1,7 @@
 site_name: 'Magknight Documentation'
 repo_name: 'GitHub'
 repo_url: 'https://github.com/magknight/aviatorsDocs'
-site_description: ''
+site_description: "Documentation for the Magknight 787: Aviator's Edition for X-Plane 11, now stored in the cloud"
 site_author: 'magknight'
 copyright: 'magknight'
 
@@ -14,12 +14,11 @@ theme:
         previous: 80 # p
         search: 83   # s
   palette:
-    primary: "rgb(109, 152, 186)"
-    accent: "rgb(153, 50, 88)"
+    primary: "pink"
+    accent: "cyan"
   custom_dir: 'theme'
 feature:
   tabs: True
-  hero: true
 markdown_extensions:
     - admonition
     - codehilite
@@ -27,6 +26,8 @@ markdown_extensions:
     - toc:
         permalink: True
         separator: "_"
+    - pymdownx.details
+    - meta
 nav:
   - Home: "index.md"
   - Frequently Asked Questions: "faq.md"
