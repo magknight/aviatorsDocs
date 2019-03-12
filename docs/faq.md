@@ -1,3 +1,7 @@
+hero: Answers to your biggest questions
+path: tree/master/docs/faq
+source: faq.md
+
 # Frequently Asked Questions
 ## Why are my MCP/Radios screens black?
 When starting from cold and dark, the MCP and Pedestal backlighting is turned to minimum setting. This rotary knob also controls the screen brightness of the MCP and radios. 
