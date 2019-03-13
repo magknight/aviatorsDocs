@@ -9,7 +9,7 @@ A getting-started tutorial, detailing the main steps to make your first flight i
 - EGLL - London Heathrow Airport
 - Stand 552
 ### Route  
-WOBU3F WOBUN WELIN UT420 TNT UN57 POL UN601 RIBEL LIBA2A
+```WOBU3F WOBUN WELIN UT420 TNT UN57 POL UN601 RIBEL LIBA2A```
 
 ### Destination Airport
 - EGPF - Glasgow Airport
