@@ -1,75 +1,28 @@
-![](img/flightTutorial/a3be82734b5cb353f4023f2fdfd2c076.png)
-
-Magknight 787 Quick Start Guide
-
-EGLL-EGPF
-
-Current on 12/03/2019
-
-Table Of Contents:
-
-0 : Route Information
-
-1 : Introduction
-
-2 : Setting Configuration  
-3 : Aircraft Startup
-
-3.1: Cold and Dark
-
-3.2: Cockpit Preparation
-
-4 : Flight Management Computer FMC  
-5 : Electronic Flight Bag EFB  
-5.1: Aircraft Specific Settings
-
-5.2: Weight and Balance
-
-5.3: Takeoff Calculator
-
-6 : Preparing to leave the Gate
-
-7 : Engine Start and Taxi  
-8 : Takeoff and Initial Climb
-
-9 : Descent Preparation  
-20 : Descending  
-11: Approach
-
-12: After landing // Taxi To Gate
-
-13: Shut Down
-
-0 : Route Information
-
-London Heathrow EGLL
-
-Stand: 552
-
-Route:  
+# 787 Full flight tutorial
+## Route Information
+**All weights are given in METRIC units**
+### Departure Airport
+- EGLL - London Heathrow Airport
+- Stand 552
+### Route  
 WOBU3F WOBUN WELIN UT420 TNT UN57 POL UN601 RIBEL LIBA2A
 
-Glasgow EGPF
+### Destination Airport
+- EGPF - Glasgow Airport
 
-Stand:
-
-All weights are given in METRIC units
-
-1 : Introduction
-
-2 : Setting Configuration
+## Settings and Configuration
 
 ![](img/flightTutorial/1fa2c1d8225171523f64ad051edf2c38.png)
 
-Before loading the 787: Aviator’s Edition, It is required that you activate the
+Before loading the **787**: Aviator’s Edition, It is required that you activate the
 ‘Use experimental flight model’ checkbox located on the general tab of X-Plane’s
 settings. Failure to do so will cause some flight performance irregularities
 including the inability to rotate or flare. Fuel burn will also be greatly
 impacted leaving the possibility of running out of fuel in cruise and ending up
-in Manchester. Nobody wants to end up in Manchester.
+in Manchester. *Nobody wants to end up in Manchester.*
 
-3 : Aircraft Startup  
-3.1 Cold and Dark
+## Aircraft Startup  
+### Cold and Dark
 
 If you step into an aircraft in a ‘Cold and Dark’ state then you will have to
 assume it was sat for a while. This requires several extra checks before jumping
@@ -147,7 +100,7 @@ lighting panel to the full right position.
 
 ![](img/flightTutorial/440ec659fb86121515acf39fbc60afea.png)
 
-3.2: Cockpit Preparation
+### Cockpit Preparation
 
 Now it is time for us to fuel up, We will need 11.8 tonnes (11800kg) of fuel.
 Try to match these numbers in the X-Plane weights and balance menu.  
@@ -162,7 +115,7 @@ below the Centre tanks.
 
 ![](img/flightTutorial/e7e61ad6397d678dfe5b57fa93113ae5.png)
 
-4 : Flight Management Computer (CDU)
+## Flight Management Computer (CDU)
 
 It is now time to program the FMC, These are located above the throttle quadrant
 and below the landing gear lever from earlier. Start off by mashing ‘CLR’ to
@@ -281,7 +234,7 @@ and the EQUIP cooling.
 
 ![](img/flightTutorial/d4bebc73007b48b6c44a86348eb3ce0f.png)
 
-7 : Engine Start and Taxi
+## Engine Start and Taxi
 
 Now it is time to push back and start the engines. With the tug connected,
 release the brakes when requested. Start by checking the beacon light is on then
@@ -346,7 +299,7 @@ Now kick off the brakes, turn on the taxi light and taxi to the runway.
 
 ![](img/flightTutorial/65b6d43578999ab2d68f6149e1e8727c.png)
 
-8 : Takeoff and Initial Climb
+## Takeoff and Initial Climb
 
 Once at the runway, Turn on the landing, runway turnoff and strobe lights,
 
@@ -394,7 +347,7 @@ You can also turn the seatbelt signs off at this moment.
 
 ![](img/flightTutorial/0b73f1b659ac791be652caf70f763c6a.png)
 
-9 : Descent Preparation
+## Descent Preparation
 
 In the FMC, hit the ‘DEP APP’ button then ARR on the bottom right.
 
@@ -420,7 +373,7 @@ intercept altitude (platform altitude); In this case that would be 2800ft.
 
 ![](img/flightTutorial/217979a0463fa19924fff3ac60028b55.png)
 
-20 : Descending
+## Descending
 
 Once at T/D, Click ‘FLCH’ to start heading down
 
@@ -439,7 +392,7 @@ into NAV1 and again into NAV2.
 
 ![](img/flightTutorial/9542da2a3df2d8f3bdcf9469c82117d7.png)
 
-11: Approach
+## Approach
 
 As you make your approach, deselect VNAV and LNAV on the autopilot, Select LOC
 when the localiser connects then manually slow down. In our case the landing
@@ -458,7 +411,7 @@ next departure.
 
 ![](img/flightTutorial/65b4a4b0a1cee8c02be1a1396b5a9f0e.png)
 
-12: After landing // Taxi To Gate
+## After landing / Taxi To Gate
 
 Once vacated, lower the spoilers and raise the flaps.
 
@@ -482,7 +435,7 @@ When nearing the gate, Turn the taxi lights off.
 
 ![](img/flightTutorial/66f7e379663e92cf408c0115e31cc6d9.png)
 
-13: Shut Down
+## Shut Down
 
 Upon arrival into the gate, set the parking brake then flick the engine master
 switches to OFF. We recommend starting the APU before doing this, to avoid the
