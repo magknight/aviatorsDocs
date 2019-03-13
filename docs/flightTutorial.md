@@ -1,4 +1,8 @@
+path: tree/master/docs/flightTutorial
+source: flightTutorial.md
+
 # 787 Full flight tutorial
+A getting-started tutorial, detailing the main steps to make your first flight in the Magknight **787**: Aviator's Edition. It doesn't include details on using the EFB for performance data, or how advanced systems work.
 ## Route Information
 **All weights are given in METRIC units**
 ### Departure Airport
@@ -411,7 +415,7 @@ next departure.
 
 ![](img/flightTutorial/65b4a4b0a1cee8c02be1a1396b5a9f0e.jpg)
 
-## After landing / Taxi To Gate
+## After Landing / Taxi To Gate
 
 Once vacated, lower the spoilers and raise the flaps.
 
