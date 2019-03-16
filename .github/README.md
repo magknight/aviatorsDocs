@@ -4,5 +4,6 @@
 </h1>
 
 ## Contributing to our docs
-If you have any changes you think would be helpful, however big or small, you can submit a pull request. A guide to contributing can be found [here](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
-Before contribution, read the code of conduct [here](https://github.com/magknight/aviatorsDocs/blob/master/.github/CODE_OF_CONDUCT.md)
+If you have any changes you think would be helpful, however big or small, you can submit a pull request. A guide to contributing can be found [here](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
+
+Before contribution, read the code of conduct [here](https://github.com/magknight/aviatorsDocs/blob/master/.github/CODE_OF_CONDUCT.md).
