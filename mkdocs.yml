@@ -1,4 +1,5 @@
 site_name: 'Magknight Documentation'
+site_url: 'https://docs.magknight.org/'
 repo_name: 'GitHub'
 repo_url: 'https://github.com/magknight/aviatorsDocs'
 site_description: "Documentation for the Magknight 787: Aviator's Edition for X-Plane 11, now stored in the cloud"
