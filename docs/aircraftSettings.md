@@ -39,40 +39,40 @@ This file contains user settings, that are stored globally. This file won't be o
 }
 ```
 
-##### ``comments``
+##### comments
 * This is an array of freetext, that is ignored by the aircraft when the file is loaded.
 
-##### ```aircraftConfig```
+##### aircraftConfig
 * Contains settings that are imported to the aircraft's global settings table on load.
 
-##### ``customCursorDisabled``
+##### customCursorDisabled
 * Default ``false``.
 * Disables the custom cursor on the EFB/MFD
 !!! bug
     Not fully implimented yet
 
-##### ``instantIrsAlign``
+##### instantIrsAlign
 * Default ``false`` 
 * Allows the IRS to align instantly
 
-##### ```instantFuelLoad``
+##### instantFuelLoad
 * Default ``false``. 
 * Causes fuel to load instantly
 !!! warning
     Not implemented yet. Fuel always loads instantly (1.1.9)
 
-##### ``vatsim``
+##### ``vatsim
 * Default ``false`` 
 * Enables VATSIM mode. See [here](./vatsim) for more details
 
-##### ``errorOverlays``
+##### errorOverlays
 * Default ``true`` 
 * Controls whether startup overlay and error overlays are enabled
 
-##### ``persistantFailures``
+##### persistantFailures
 * Default ``false`` 
 * Not implimented; for future use.
 
-##### ``helpfulPointers``
+##### helpfulPointers
 * Default ``true`` 
 * Controls whether the helpful pointers popups are enabled.
