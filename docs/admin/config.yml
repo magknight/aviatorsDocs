@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: magknight/aviatorsDocs
   branch: master
 
@@ -25,4 +25,4 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "string"} 
