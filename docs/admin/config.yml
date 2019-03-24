@@ -4,6 +4,7 @@ publish_mode: editorial_workflow
 public_folder: "/assets"
 media_folder: "site/assets"
 
+
 collections:
   - name: "doc"
     label: "Doc"
