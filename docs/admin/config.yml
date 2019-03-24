@@ -2,11 +2,9 @@ backend:
   name: git-gateway
   repo: magknight/aviatorsDocs
   branch: master
-
-public_folder: "site"
-media_folder: "site/assets"
 publish_mode: editorial_workflow
-
+public_folder: "/assets"
+media_folder: "site/assets"
 
 collections:
   - name: "doc"
