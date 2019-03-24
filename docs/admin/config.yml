@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
 publish_mode: editorial_workflow
-public_folder: "/assets"
-media_folder: "site/assets"
+public_folder: "/img"
+media_folder: "site/img"
 
 
 collections:
