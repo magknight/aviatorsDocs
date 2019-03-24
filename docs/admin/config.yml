@@ -14,7 +14,6 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"}
   - name: "extensions"
     label: "Extensions"
     folder: "docs/extensions"
@@ -23,4 +22,6 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "string"} 
+
+editor:
+  preview: false
