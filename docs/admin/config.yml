@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+publish_mode: editorial_workflow
+public_folder: "/img"
+media_folder: "site/img"
+
+
+collections:
+  - name: "doc"
+    label: "Doc"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "extensions"
+    label: "Extensions"
+    folder: "docs/extensions"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+editor:
+  preview: false
