@@ -32,6 +32,3 @@ We reccomend these modifications if you'd like to use the plane in VR:
 - [VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) by [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=) (X-Plane.org)
 
 - [MoveVR](https://forums.x-plane.org/index.php?/files/file/44809-movevr-move-external-windows-into-x-plane-even-into-vr/) by [Folko](https://forums.x-plane.org/index.php?/profile/215470-folko/&wr=eyJhcHAiOiJkb3dubG9hZHMiLCJtb2R1bGUiOiJkb3dubG9hZHMiLCJpZF8xIjo0NDgwOX0=) (X-Plane.org)
-
-## The plane gives a Java JNI error on startup
-The **787**: Aviator's Edition requires Java SE 9 or above to run. You can download the required Java version [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html).
