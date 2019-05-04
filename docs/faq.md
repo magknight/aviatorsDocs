@@ -9,7 +9,7 @@ To turn on the radios, turn the AISLE STAND PNL rotary to the full right setting
 To turn on the MCP, turn the GLARE PNL rotary to the full right setting; it's located on the bottom-left of the overhead panel.
 
 ## Does the 787 support MacOS?
-At present, no. We are working on support for macOS; it's coming *soon*
+Yes, it does! You'll need to update it to 1.2.10 or later to get support
 
 ## The 787's fuel consumption is far too low
 Make sure you have "Experimental flight model" enabled in the x-plane settings. The flight model is built for, and tested with the latest flight dynamics from LR. We don't provide support for the non-experimental flight model.
