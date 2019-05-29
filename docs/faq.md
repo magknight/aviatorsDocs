@@ -23,7 +23,7 @@ The SkunkCrafts updater can be found [here](https://forums.x-plane.org/index.php
 
 You'll find the changelog in your aircraft's folder.
 
-Missing the config file? Download it [here](https://magknight.org/downloads/skunkcrafts_updater.zip)
+Missing the config file? Download it [here](https://docs.magknight.org/img/skunkcrafts_updater.zip). You'll need to place it in your aircraft's root directory.
 
 ## What does VATSIM mode do?
 VATSIM mode enables intergration with the [VATSIM network](https://vatsim.net). It enables SELCAL identification, radio uplink using contact-me messages, and some other uplink-related features. *VATSIM mode only works with X-Squawkbox; due to a lack of dataref availablilty, the Swift pilot client, and IVAO clients are not supported*
