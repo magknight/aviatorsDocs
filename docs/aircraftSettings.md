@@ -18,7 +18,7 @@ This file contains the default settings, both those that are stored globally and
 This file contains the settings for the default livery. As with all livery settings included with the aicraft, it will be overwritten by the updater during each minor or major release. We don't reccomend changing settings in this file.
 
 ### globalSettings.json
-This file contains user settings, that are stored globally. This file won't be overwritten by the updater. 
+This file contains user settings, that are stored globally. This file won't be overwritten by the updater. Only settings that are defined below are able to be used by the settings system.
 #### Structure
 ```json
 {
@@ -34,7 +34,11 @@ This file contains user settings, that are stored globally. This file won't be o
         "vatsim": false,
         "errorOverlays": true,
         "persistantFailures": false,
-        "helpfulPointers": true
+        "helpfulPointers": true,
+        "sharedBaro": true,
+        "useTiller": false,
+        "useRollTiller": false,
+        "startupWindow": true
     }
 }
 ```
@@ -76,3 +80,117 @@ This file contains user settings, that are stored globally. This file won't be o
 ##### helpfulPointers
 * Default ``true`` 
 * Controls whether the helpful pointers popups are enabled.
+
+##### New in 1.2.4: useTiller
+* Default ``false``
+* Controls whether the tiller axis is used for ground steering
+
+##### New in 1.2.5: useRollTiller
+* Default ``false``
+* Controls whether the roll axis is used in place of the rudder for ground steering
+
+##### New in 1.3.0: startupWindow
+* Default ``false``
+* Controls whether the first startup window opens
+
+
+### liverySettings.json
+This file contains user settings, that are stored on a per-livery basis. This file will only be overritten by the updater for default liveries. Only settings that are defined below are able to be used by the settings system.
+#### Structure
+```json
+{
+     "comments": [
+        "This settings file is the settings file for the default livery"
+    ],
+    "airlineConfig": {
+        
+        "gpwsCallouts": {
+            "40": false,
+            "10": false,
+            "50": false,
+            "2500": false,
+            "400": false,
+            "1000": false,
+            "500": false,
+            "20": false,
+            "30": false,
+            "100": false,
+            "200": false,
+            "300": false
+        },
+        "pmCallouts": {
+            "400": false,
+            "1000": false,
+            "1000Stabilized": false,
+            "rotate": false,
+            "1000ToGo": false,
+            "80kts": false,
+            "v1": false
+        },
+        "defaultBaroHpa": true,
+        "useMetersL": false,
+        "defaultWeightKgs": false,
+        "icaoId": "4071C0",
+        "tailNumber": "G-TUIA",
+        "selcalCode": "HLGR",
+        "useMetersR": false,
+        "airlineId": "BAW",
+    }
+}
+```
+
+##### comments
+* This is an array of freetext, that is ignored by the aircraft when the file is loaded.
+
+##### airlineConfig
+* Contains settings that are imported to the aircraft's livery settings table on load.
+
+##### New in 1.4.0: GPWS callouts
+* Sub-object for GPWS callouts
+* Defaults to ``500, 50, 30, 10``
+!!! warning
+    Not backwards compatible with aircraft versions < 1.3.0
+
+##### New in 1.4.0: PM callouts
+* Sub-object for Pilot Monitoring callouts
+* Defaults to ``400, 1000, rotate, 80kts, v1``
+!!! warning
+    Not backwards compatible with aircraft versions < 1.3.0
+
+##### defaultBaroHpa
+* Default ``true`` 
+* Controls whether the baro is by default set to HPA (``true``) or inHg (``false``)
+
+##### useMetersL
+* Default ``false`` 
+* Controls whether the aircraft systems are set to use meters for altitude or not
+* Affects left PFD/HUD/MFDs/Autopilot
+
+##### useMetersR
+* Default ``false`` 
+* Controls whether the aircraft systems are set to use meters for altitude or not
+* Affects right PFD/HUD/MFDs/Autopilot
+* 
+##### defaultWeightKgs
+* Default ``true`` 
+* Controls whether weights are shown in kilograms (``true``) or lbs (``false``)
+
+##### icaoId
+* Default ``"4071C0"`` 
+* ICAO mode S transponder code
+
+##### tailNumber
+* Default ``"G-TUIK"`` 
+* Aircraft's tail number/registration
+
+##### selcalCode
+* Default ``"HLGR"``
+* Selcal code used for identification with CPDLC/HF systems in VATSIM mode.
+* Format is ``AABB`` with no ``-``
+
+##### airlineId
+* Default ``"TOM"``
+* ICAO airline type code, used for internal systems
+
+
+
