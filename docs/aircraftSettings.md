@@ -148,10 +148,12 @@ This file contains user settings, that are stored on a per-livery basis. This fi
 ##### New in 1.4.0: GPWS callouts
 * Sub-object for GPWS callouts
 * Defaults to ``500, 50, 30, 10``
+
 !!! warning
     Not backwards compatible with aircraft versions < 1.3.0
 
 ##### New in 1.4.0: PM callouts
+
 * Sub-object for Pilot Monitoring callouts
 * Defaults to ``400, 1000, rotate, 80kts, v1``
 !!! warning
