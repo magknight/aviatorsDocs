@@ -52,6 +52,7 @@ This file contains user settings, that are stored globally. This file won't be o
 ##### customCursorDisabled
 * Default ``false``.
 * Disables the custom cursor on the EFB/MFD
+  
 !!! bug
     Not fully implimented yet
 
@@ -62,6 +63,7 @@ This file contains user settings, that are stored globally. This file won't be o
 ##### instantFuelLoad
 * Default ``false``. 
 * Causes fuel to load instantly
+  
 !!! warning
     Not implemented yet. Fuel always loads instantly (1.1.9)
 
@@ -153,9 +155,9 @@ This file contains user settings, that are stored on a per-livery basis. This fi
     Not backwards compatible with aircraft versions < 1.3.0
 
 ##### New in 1.4.0: PM callouts
-
 * Sub-object for Pilot Monitoring callouts
 * Defaults to ``400, 1000, rotate, 80kts, v1``
+
 !!! warning
     Not backwards compatible with aircraft versions < 1.3.0
 
