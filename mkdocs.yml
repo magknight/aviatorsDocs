@@ -29,8 +29,12 @@ markdown_extensions:
 nav:
   - Home: "index.md"
   - Frequently Asked Questions: "faq.md"
-  - Getting Started: "flightTutorial.md"
+  - Tutorials:
+    - Getting Started: "flightTutorial.md"
+  - Reference:
+    - Aircraft Settings: "aircraftSettings.md"
   - About: "about.md"
+  
 extra:
   social:
     - type: globe
