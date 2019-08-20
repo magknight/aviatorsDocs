@@ -114,8 +114,9 @@ Try to match these numbers in the X-Plane weights and balance menu.
 
 Upon refueling, Head back to the Overhead Panel and go to the fuel panel. This
 is located above the lighting panel. You will need to press ‘L PUMPS FWD/AFT’,
-‘CENTER PUMPS FWD/AFT’ and ‘R PUMPS FWD/AFT’ followed by the ‘BALANCE’ button
-below the Centre tanks.
+‘CENTER PUMPS FWD/AFT’ and ‘R PUMPS FWD/AFT’. The ‘BALANCE’ button
+below the Centre Tanks needs to remain OFF. This will prevent the engines from
+starting if the PushButton is selected to on. 
 
 ![](img/flightTutorial/e7e61ad6397d678dfe5b57fa93113ae5.jpg)
 
