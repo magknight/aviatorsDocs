@@ -2,6 +2,9 @@ path: tree/master/docs/faq
 source: faq.md
 
 # Frequently Asked Questions
+## My serial key has run out of activations
+If your key has run out of activations, you can contact us on the forums, social media or by email to add more activations.
+
 ## Why are my MCP/Radios screens black?
 When starting from cold and dark, the MCP and Pedestal backlighting is turned to minimum setting. This rotary knob also controls the screen brightness of the MCP and radios. 
 To turn on the radios, turn the AISLE STAND PNL rotary to the full right setting; It's located at the back right of the pedestal.
