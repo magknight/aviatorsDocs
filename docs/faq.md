@@ -5,6 +5,9 @@ source: faq.md
 ## My serial key has run out of activations
 If your key has run out of activations, you can contact us on the forums, social media or by email to add more activations.
 
+## How do I trigger cabin announcements?
+Announcements are operated from the COMM pages within the MFDs. To activate this page, click COMM on one of the MFD control sets, then click CABIN. 
+
 ## Why are my MCP/Radios screens black?
 When starting from cold and dark, the MCP and Pedestal backlighting is turned to minimum setting. This rotary knob also controls the screen brightness of the MCP and radios. 
 To turn on the radios, turn the AISLE STAND PNL rotary to the full right setting; It's located at the back right of the pedestal.
