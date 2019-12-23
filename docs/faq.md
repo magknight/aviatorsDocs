@@ -5,6 +5,9 @@ source: faq.md
 ## My serial key has run out of activations
 If your key has run out of activations, you can contact us on the forums, social media or by email to add more activations.
 
+## How do I enable rain effects?
+Rain effects, provided by librain are enabled in the EFB's settings page. The setting is located on page 2.
+
 ## How do I trigger cabin announcements?
 Announcements are operated from the COMM pages within the MFDs. To activate this page, click COMM on one of the MFD control sets, then click CABIN. 
 
@@ -18,9 +21,8 @@ To turn on the MCP, turn the GLARE PNL rotary to the full right setting; it's lo
 Yes, it does! You'll need to update it to 1.2.10 or later to get support
 
 ## The 787's fuel consumption is far too low
-Make sure you have "Experimental flight model" enabled in the x-plane settings. The flight model is built for, and tested with the latest flight dynamics from LR. We don't provide support for the non-experimental flight model.
+Make sure you have "Experimental flight model" **disabled** in the x-plane settings. We don't provide support for the experimental flight model at this time.
 
-![Experimental flight model button](https://docs.magknight.org/img/expermentalFlightModel.png)
 
 ## How do I update my 787?
 With the **787**: Aviator's Edition comes the ability to auto-update your aircraft using the SkunkCrafts updater. Minor updates (1.0.x) will only be shipped through these means.
