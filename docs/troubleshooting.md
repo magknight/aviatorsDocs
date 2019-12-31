@@ -1,4 +1,4 @@
-path: tree/master/docs/troubleshooting
+path: tree/master/docs/
 source: troubleshooting.md
 
 # Troubleshooting
