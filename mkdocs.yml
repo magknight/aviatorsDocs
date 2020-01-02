@@ -30,8 +30,8 @@ nav:
   - Home: "index.md"
   - Frequently Asked Questions: "faq.md"
   - Troubleshooting: "troubleshooting.md"
-  - Tutorials:
-    - Getting Started: "flightTutorial.md"
+  #- Tutorials:
+  #  - Getting Started: "flightTutorial.md"
   - Reference:
     - Aircraft Settings: "aircraftSettings.md"
   - About: "about.md"
