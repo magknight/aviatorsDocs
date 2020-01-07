@@ -2,6 +2,9 @@ path: tree/master/docs/faq
 source: faq.md
 
 # Frequently Asked Questions
+## What is Discord?
+We use Discord as our primary means of communication and support for customers. You can access our server at https://magknight.org/discord
+
 ## My serial key has run out of activations
 If your key has run out of activations, you can contact us on the forums, social media or by email to add more activations.
 
