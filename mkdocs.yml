@@ -15,8 +15,6 @@ theme:
         previous: 80 # p
         search: 83   # s
   custom_dir: 'theme'
-feature:
-  tabs: True
 markdown_extensions:
     - admonition
     - codehilite
