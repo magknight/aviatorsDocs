@@ -2,6 +2,15 @@ path: tree/master/docs/faq
 source: faq.md
 
 # Frequently Asked Questions
+## What is the blue box?
+The blue box is a diagnostics tool for the fctl2 branch, currently running on the Cygnus channel. It's important, and no, you can't turn it off.
+
+## When will ... update release?
+When it's ready...
+
+## What is Cygnus?
+Cygnus is the name for our updater-based public beta program. It is not designated as stable, so should only be used if you are comfortable with identifying and reporting bugs. It can be enabled or disabled using the Skunkcraft's Updater "Enable beta channel" box
+
 ## What is Discord?
 We use Discord as our primary means of communication and support for customers. You can access our server at https://magknight.org/discord
 
@@ -43,5 +52,4 @@ VATSIM mode enables intergration with the [VATSIM network](https://vatsim.net). 
 We don't directly support VR, and haven't made any special arrangements to allow it to work. Many users have however reported that the plane does work in VR.
 We reccomend these modifications if you'd like to use the plane in VR:
 - [VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) by [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=) (X-Plane.org)
-
 - [MoveVR](https://forums.x-plane.org/index.php?/files/file/44809-movevr-move-external-windows-into-x-plane-even-into-vr/) by [Folko](https://forums.x-plane.org/index.php?/profile/215470-folko/&wr=eyJhcHAiOiJkb3dubG9hZHMiLCJtb2R1bGUiOiJkb3dubG9hZHMiLCJpZF8xIjo0NDgwOX0=) (X-Plane.org)
