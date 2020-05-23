@@ -34,14 +34,16 @@ nav:
     - Aircraft Settings: "aircraftSettings.md"
   - About: "about.md"
   
-# extra:
-#   social:
-#     - icon: globe
-#       link: http://magknight.org
-#     - icon: twitter
-#       link: https://twitter.com/magknightav
-#     - icon: facebook
-#       link: https://www.facebook.com/magknightAv
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: http://magknight.org
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/magknightav
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/magknightAv
+    - icon: fontawesome/brands/github
+      link: https://github.com/magknight/
 
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
