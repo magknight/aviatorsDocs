@@ -14,7 +14,7 @@ theme:
         next: 78     # n
         previous: 80 # p
         search: 83   # s
-  custom_dir: 'theme'
+  custom_dir: 'material'
 markdown_extensions:
     - admonition
     - codehilite
@@ -34,14 +34,14 @@ nav:
     - Aircraft Settings: "aircraftSettings.md"
   - About: "about.md"
   
-extra:
-  social:
-    - type: globe
-      link: http://magknight.org
-    - type: twitter
-      link: https://twitter.com/magknightav
-    - type: facebook
-      link: https://www.facebook.com/magknightAv
+# extra:
+#   social:
+#     - icon: globe
+#       link: http://magknight.org
+#     - icon: twitter
+#       link: https://twitter.com/magknightav
+#     - icon: facebook
+#       link: https://www.facebook.com/magknightAv
 
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
