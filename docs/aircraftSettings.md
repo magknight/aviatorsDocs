@@ -17,9 +17,9 @@ This file contains the default settings, both those that are stored globally and
 ### defaultLiverySettings.json
 This file contains the settings for the default livery. As with all livery settings included with the aicraft, it will be overwritten by the updater during each minor or major release. We don't reccomend changing settings in this file.
 
-### globalSettings.json
+## globalSettings.json
 This file contains user settings, that are stored globally. This file won't be overwritten by the updater. Only settings that are defined below are able to be used by the settings system.
-#### Structure
+### Structure
 ```json
 {
     "comments": [
@@ -38,67 +38,121 @@ This file contains user settings, that are stored globally. This file won't be o
         "sharedBaro": true,
         "useTiller": false,
         "useRollTiller": false,
-        "startupWindow": true
+        "startupWindow": true,
+        "killCockpitGlass": false,
+        "killSeats": false,
+        "killCabinGlass": false,
+        "rainEffect": false,
+        "usePitchBrake": false,
+        "use833": false,
+        "pauseAtTod": false,
+        "acarsRemoteServer": "http://www.hoppie.nl/acars/system/connect.html",
+        "acarsEnabled": false,
+        "acarsLogonCode": ""
     }
 }
 ```
 
-##### comments
+### comments
 * This is an array of freetext, that is ignored by the aircraft when the file is loaded.
 
-##### aircraftConfig
+### aircraftConfig
 * Contains settings that are imported to the aircraft's global settings table on load.
 
-##### customCursorDisabled
+#### customCursorDisabled
 * Default ``false``.
 * Disables the custom cursor on the EFB/MFD
   
 !!! bug
     Not fully implimented yet
 
-##### instantIrsAlign
+#### instantIrsAlign
 * Default ``false`` 
 * Allows the IRS to align instantly
 
-##### instantFuelLoad
+#### instantFuelLoad
 * Default ``false``. 
 * Causes fuel to load instantly
   
 !!! warning
     Not implemented yet. Fuel always loads instantly (1.1.9)
 
-##### ``vatsim
+#### vatsim
 * Default ``false`` 
 * Enables VATSIM mode. See [here](./vatsim) for more details
 
-##### errorOverlays
+!!! warning "Legacy"
+    VATSIM mode has been removed in the release version of 1.5.0 - it's functionality is mostly replaced by ACARS
+
+#### errorOverlays
 * Default ``true`` 
 * Controls whether startup overlay and error overlays are enabled
 
-##### persistantFailures
+#### persistantFailures
 * Default ``false`` 
 * Not implimented; for future use.
 
-##### helpfulPointers
+#### helpfulPointers
 * Default ``true`` 
 * Controls whether the helpful pointers popups are enabled.
 
-##### New in 1.2.4: useTiller
+#### New in 1.2.4: useTiller
 * Default ``false``
 * Controls whether the tiller axis is used for ground steering
 
-##### New in 1.2.5: useRollTiller
+#### New in 1.2.5: useRollTiller
 * Default ``false``
 * Controls whether the roll axis is used in place of the rudder for ground steering
 
-##### New in 1.3.0: startupWindow
+#### New in 1.3.0: startupWindow
 * Default ``false``
 * Controls whether the first startup window opens
+  
+#### New in 1.4.2: killCockpitGlass
+* Default ``false``
+* Removes cockpit glass/reflections for improved performance on low-end systems
+  
+#### New in 1.4.2: pauseAtTod
+* Default ``false``
+* Pause at top-of-descent
+  
+#### New in 1.4.2: killCabinGlass
+* Default ``false``
+* Removes cabin glass/reflections for improved performance on low-end systems
 
+#### New in 1.4.2: killSeats
+* Default ``false``
+* Removes cabin seats for improved performance on low-end systems
 
-### liverySettings.json
+#### New in 1.4.2: rainEffect
+* Default ``false``
+* Enables libRain rain effects
+
+!!! warning "libRain is not compatible with X-Plane 11.50 at this time"
+
+#### fNew in 1.4.6: usePitchBrake
+* Default ``false``
+* Enables use of pitch axis for braking on ground (below 35kts)
+
+#### New in 1.4.10: use833
+* Default ``false``
+* Enables 8.33kHz frequency spacing in TCPs and COMM
+
+#### New in 1.5.0: acarsRemoteServer
+* Default ``"http://www.hoppie.nl/acars/system/connect.html"``
+* Remote serve for ACARS, default public HOPPIE, although supports both local HOPPIE and other HOPPIE-compatible remotes
+
+#### New in 1.5.0: acarsEnabled
+* Default ``false``
+* Enables ACARS system using HOPPIE in COMM
+
+#### New in 1.5.0: acarsLogonCode
+* Default ``""``
+* Personal HOPPIE logon code
+
+## liverySettings.json
 This file contains user settings, that are stored on a per-livery basis. This file will only be overritten by the updater for default liveries. Only settings that are defined below are able to be used by the settings system.
-#### Structure
+### Structure
 ```json
 {
      "comments": [
@@ -137,64 +191,103 @@ This file contains user settings, that are stored on a per-livery basis. This fi
         "selcalCode": "HLGR",
         "useMetersR": false,
         "airlineId": "BAW",
+        "cabinSoundpack": "default",
+        "headingHorizon": false,
+        "useRREngines": false,
+        "pfdAOAIndicator": false,
+        "liveryVersion": 0,
+        "satcomDishDisabled": true,
     }
 }
 ```
 
-##### comments
+### comments
 * This is an array of freetext, that is ignored by the aircraft when the file is loaded.
 
-##### airlineConfig
+### airlineConfig
 * Contains settings that are imported to the aircraft's livery settings table on load.
 
-##### New in 1.4.0: GPWS callouts
+#### New in 1.4.0: GPWS callouts
 * Sub-object for GPWS callouts
 * Defaults to ``500, 50, 30, 10``
 
 !!! warning
     Not backwards compatible with aircraft versions < 1.3.0
 
-##### New in 1.4.0: PM callouts
+#### New in 1.4.0: PM callouts
 * Sub-object for Pilot Monitoring callouts
 * Defaults to ``400, 1000, rotate, 80kts, v1``
 
 !!! warning
     Not backwards compatible with aircraft versions < 1.3.0
 
-##### defaultBaroHpa
+#### defaultBaroHpa
 * Default ``true`` 
 * Controls whether the baro is by default set to HPA (``true``) or inHg (``false``)
 
-##### useMetersL
+#### useMetersL
 * Default ``false`` 
 * Controls whether the aircraft systems are set to use meters for altitude or not
 * Affects left PFD/HUD/MFDs/Autopilot
 
-##### useMetersR
+#### useMetersR
 * Default ``false`` 
 * Controls whether the aircraft systems are set to use meters for altitude or not
 * Affects right PFD/HUD/MFDs/Autopilot
-* 
-##### defaultWeightKgs
+
+#### defaultWeightKgs
 * Default ``true`` 
 * Controls whether weights are shown in kilograms (``true``) or lbs (``false``)
 
-##### icaoId
+#### icaoId
 * Default ``"4071C0"`` 
 * ICAO mode S transponder code
 
-##### tailNumber
+#### tailNumber
 * Default ``"G-TUIK"`` 
 * Aircraft's tail number/registration
 
-##### selcalCode
+#### selcalCode
 * Default ``"HLGR"``
 * Selcal code used for identification with CPDLC/HF systems in VATSIM mode.
 * Format is ``AABB`` with no ``-``
 
-##### airlineId
+#### airlineId
 * Default ``"TOM"``
 * ICAO airline type code, used for internal systems
+
+#### New in 1.4.2: cabinSoundpack
+* Default ``"default"``
+* Changes the soundpack id used for the CABIN PA
+* Value is name of folder in ``787/soundpacks/[name]/``
+
+#### New in 1.4.12: headingHorizon
+* Default ``false``
+* Enables the company option for a heading display on the artifical horizon
+
+#### New in 1.5.0: useRREngines
+* Default ``false``
+* Enables RR engines
+
+#### New in 1.5.0: pfdAOAIndicator
+* Default ``false``
+* Enables the company option for a PFD AOA indicator
+
+#### New in 1.5.0: satcomDishDisabled
+* Default ``true``
+* Enables the company option for SATCOM dish on the top of the fuselage
+
+#### New in 1.5.0: liveryVersion
+* Default ``0``
+* Sets the version that the livery is designed against, using the following options:
+
+##### 0
+* 1.4.0 GE engines or 1.5.0 RR engines, 1.4.0 fuselage
+
+##### 1
+* 1.5.0 GE engines or 1.5.0 RR engines, 1.4.0 fuselage
+
+
 
 
 
