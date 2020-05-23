@@ -14,7 +14,7 @@ theme:
         next: 78     # n
         previous: 80 # p
         search: 83   # s
-  custom_dir: 'theme'
+  custom_dir: 'material'
 markdown_extensions:
     - admonition
     - codehilite
@@ -36,12 +36,14 @@ nav:
   
 extra:
   social:
-    - type: globe
+    - icon: fontawesome/solid/globe
       link: http://magknight.org
-    - type: twitter
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/magknightav
-    - type: facebook
+    - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/magknightAv
+    - icon: fontawesome/brands/github
+      link: https://github.com/magknight/
 
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML

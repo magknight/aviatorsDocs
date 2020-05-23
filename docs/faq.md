@@ -46,10 +46,15 @@ You'll find the changelog in your aircraft's folder.
 Missing the config file? Download it [here](https://docs.magknight.org/img/skunkcrafts_updater.zip). You'll need to place it in your aircraft's root directory.
 
 ## What does VATSIM mode do?
+
+!!! warning "Legacy"
+    VATSIM mode has been removed in the release version of 1.5.0 - it's functionality is mostly replaced by ACARS
+
 VATSIM mode enables intergration with the [VATSIM network](https://vatsim.net). It enables SELCAL identification, radio uplink using contact-me messages, and some other uplink-related features. *VATSIM mode only works with X-Squawkbox; due to a lack of dataref availablilty, the Swift pilot client, and IVAO clients are not supported*
 
 ## Does the 787 work in VR?
 We don't directly support VR, and haven't made any special arrangements to allow it to work. Many users have however reported that the plane does work in VR.
+
 We recommend these modifications if you'd like to use the plane in VR:
 
 - [VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) by [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=) (X-Plane.org)
