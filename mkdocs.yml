@@ -10,20 +10,21 @@ theme:
   name: 'material'
   language: 'en'
   shortcuts:
-        help: 191    # ?
-        next: 78     # n
-        previous: 80 # p
-        search: 83   # s
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
   custom_dir: 'theme'
 markdown_extensions:
-    - admonition
-    - codehilite
-    - footnotes
-    - toc:
-        permalink: True
-        separator: "_"
-    - pymdownx.details
-    - meta
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.footnotes
+  - markdown.extensions.toc:
+      permalink: true
+      separator: "_"
+  - pymdownx.details
+  - markdown.extensions.meta
 nav:
   - Home: "index.md"
   - Frequently Asked Questions: "faq.md"
@@ -43,5 +44,5 @@ extra:
     - type: facebook
       link: https://www.facebook.com/magknightAv
 
-extra_javascript:
-    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+# extra_javascript:
+#     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
