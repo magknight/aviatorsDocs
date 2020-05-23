@@ -4,16 +4,16 @@ source: acars.md
 # ACARS
 ## What is it?
 ACARS is a global network that allows aircraft to communicate with ATSUs (Air Traffic Service Units), their airline dispatch, Airport management and more. It can transmit text messages between facilities, with reply capability. More details on the real world system can be found at [SKYbrary](https://www.skybrary.aero/index.php/Aircraft_Communications,_Addressing_and_Reporting_System)
-In the 787: Aviator's Edition, we've implimented a subset of the real ACARS features using the HOPPIE network. HOPPIE is a ACARS-esque web service managed by Jeroen Hoppenbrouwers, and intergrated into some VATSIM ATS (Air Traffic Service) clients (Such as the EuroScope TOPSKY, vSMR and UAC plugins)
+In the 787: Aviator's Edition, we've implimented a subset of the real ACARS features using the Hoppie network. Hoppie is a ACARS-esque web service managed by Jeroen Hoppenbrouwers, and intergrated into some VATSIM ATS (Air Traffic Service) clients (Such as the EuroScope TOPSKY, vSMR and UAC plugins)
 
 !!! tip
-    Although HOPPIE is not managed by any online networks, its PDC services are normally only available on VATSIM, due to the availability of ATCS clients that support it.
+    Although Hoppie is not managed by any online networks, its PDC services are normally only available on VATSIM, due to the availability of ATCS clients that support it.
 
 
 ## Getting started
 * Make sure you have a working 787: Aviator's Edition install with version **1.5.0** or later - The feature did not exist before the release of 1.5.0
 * Navigate to the MFD COMM page using one of the MFD control panels, and select **MANAGER** in the top bar, then **ACARS** in the main menu
-* Go to [HOPPIE](https://www.hoppie.nl/acars/system/register.html) and request an ACARS logon code - it'll be emailled to you within 24h, although it is normally nearly instant. *The logon code expires after 120 days of inactivity - if this happens, just request a new one*
+* Go to [Hoppie](https://www.hoppie.nl/acars/system/register.html) and request an ACARS logon code - it'll be emailled to you within 24h, although it is normally nearly instant. *The logon code expires after 120 days of inactivity - if this happens, just request a new one*
 * Copy the 10-15 characther logon code from the email, and click the **PASTE** button on the MFD ACARS page
 * Check the **ENABLE ACARS** box 
 * Make sure you've entered a callsign into the CDU - when this is complete, the ACARS options should become active.
@@ -33,14 +33,16 @@ In the 787: Aviator's Edition, we've implimented a subset of the real ACARS feat
 - Now you've done that, the same methodology also applies to requesting a METAR or TAF
 
 ### Request a pre-departure clearance 
-- Ensure you are at an airport that is providing HOPPIE PDC/DCL
-    - You can check the currently online facilities on the [HOPPIE website](https://www.hoppie.nl/acars/system/log.html)
+- Ensure you are at an airport that is providing Hoppie PDC/DCL
+    - You can check the currently online facilities on the [Hoppie website](https://www.hoppie.nl/acars/system/log.html)
+
 !!! tip
-    Locations that commonly have VATSIM HOPPIE services include EGKK, EGLL, EGCC, LOWW, EFHK, EDDF, EDDM, EDDH and EVRA
+    Locations that commonly have VATSIM Hoppie services include EGKK, EGLL, EGCC, LOWW, EFHK, EDDF, EDDM, EDDH and EVRA
 
 - Navigate to the MFD COMM page using one of the MFD control panels, and select **FLIGHT INFORMATION** in the top bar
 - Click **DEPARTURE CLEARANCE REQUEST**
 - Fill out the fields on the page
+
 !!! tip
     ATC FACILITY is probably the ICAO code for your airport if service is provided by DEL/GND/TWR, or the ICAO FIR identifier for CTR-provided services
 
