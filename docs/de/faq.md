@@ -77,5 +77,5 @@ Wir unterstützen nicht direkt VR und haben keine speziellen Funktionen eingebau
 
 Wir empfehlen folgende Modifikationen, wenn du das Flugzeug in VR nutzen willst:
 
-- [VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) von [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=) (X-Plane.org)
-- [MoveVR](https://forums.x-plane.org/index.php?/files/file/44809-movevr-move-external-windows-into-x-plane-even-into-vr/) von [Folko](https://forums.x-plane.org/index.php?/profile/215470-folko/&wr=eyJhcHAiOiJkb3dubG9hZHMiLCJtb2R1bGUiOiJkb3dubG9hZHMiLCJpZF8xIjo0NDgwOX0=) (X-Plane.org)
+*   [VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) von [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=) (X-Plane.org)
+*   [MoveVR](https://forums.x-plane.org/index.php?/files/file/44809-movevr-move-external-windows-into-x-plane-even-into-vr/) von [Folko](https://forums.x-plane.org/index.php?/profile/215470-folko/&wr=eyJhcHAiOiJkb3dubG9hZHMiLCJtb2R1bGUiOiJkb3dubG9hZHMiLCJpZF8xIjo0NDgwOX0=) (X-Plane.org)
