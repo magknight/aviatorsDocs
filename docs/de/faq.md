@@ -9,6 +9,7 @@ Der blaue Kasten ist ein Diagnose-Werkzeug für den fctl2-Zweig, der zur Zeit au
 
 ## Warum zeigt der Updater "locked for maintenance" an?
 Allgemein gibt es dafür 2 Gründe:
+
 * Wir spielen gerade eine Aktualisierung auf, was Zeit braucht - warte einfach ein bisschen
 * Es ist für diesen Zweig keine Aktualisierung verfügbar
 

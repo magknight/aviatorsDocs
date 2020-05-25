@@ -9,8 +9,10 @@ Het blauwe kader is een diagnostisch hulpmiddel voor de fctl2 branche, die op di
 
 ## Waarom zegt de updater: ‘’locked for maintenance’’?
 Over het algemeen zijn er twee redenen:
--	Er komen regelmatig updates. Dat kost tijd – probeer het later nog eens.
--	Er zijn geen updates beschikbaar voor die branche. 
+
+*   Er komen regelmatig updates. Dat kost tijd – probeer het later nog eens.
+*   Er zijn geen updates beschikbaar voor die branche. 
+
 Het is niet mogelijk om van 1.4.x te updaten naar 1.5.0 door middel van de updater. Je moet de nieuwe versie downloaden van de winkel waar je de 787 hebt gekocht.
 
 ## Wanneer komt er … een nieuwe update?
@@ -69,5 +71,5 @@ Nee. De flaps hendel is niet geschikt voor gebruik met een as, omdat het niet mo
 ## Werkt de 787 met VR?
 We ondersteunen geen VR en hebben geen modificaties gedaan om te zorgen dat het werkt in VR. Echter, veel gebruikers zeggen dat de 787 werkt in VR. 
 We bevelen deze modificaties aan als je de 787 wilt gebruiken in VR:
--	[VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) van [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=)
--	[MoveVR](https://forums.x-plane.org/index.php?/files/file/44809-movevr-move-external-windows-into-x-plane-even-into-vr/) van [Folko](https://forums.x-plane.org/index.php?/profile/215470-folko/&wr=eyJhcHAiOiJkb3dubG9hZHMiLCJtb2R1bGUiOiJkb3dubG9hZHMiLCJpZF8xIjo0NDgwOX0=) (X-Plane.org)
+*	[VR hotspots for cockpit seats](https://forums.x-plane.org/index.php?/forums/topic/172655-vr-hotspots-for-cockpit-seats/) van [Xplaner-73](https://forums.x-plane.org/index.php?/profile/428045-xplaner73/&wr=eyJhcHAiOiJmb3J1bXMiLCJtb2R1bGUiOiJmb3J1bXMtY29tbWVudCIsImlkXzEiOjE3MjY1NSwiaWRfMiI6MTYwMjY4OX0=)
+*	[MoveVR](https://forums.x-plane.org/index.php?/files/file/44809-movevr-move-external-windows-into-x-plane-even-into-vr/) van [Folko](https://forums.x-plane.org/index.php?/profile/215470-folko/&wr=eyJhcHAiOiJkb3dubG9hZHMiLCJtb2R1bGUiOiJkb3dubG9hZHMiLCJpZF8xIjo0NDgwOX0=) (X-Plane.org)
