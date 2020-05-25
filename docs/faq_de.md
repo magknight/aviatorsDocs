@@ -12,7 +12,7 @@ Allgemein gibt es dafür 2 Gründe:
 
 Es ist **nicht** möglich, von 1.4.x auf 1.5.0 mit dem Updater zu aktualisieren. Du musst die 787 aus dem Store neu installieren.
 
-## Wann wird ... Update veröffentlich?
+## Wann wird ... Update veröffentlicht?
 Wenn es fertig ist...
 
 ## Was ist Cygnus?
