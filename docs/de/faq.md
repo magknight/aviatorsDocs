@@ -1,5 +1,5 @@
-Pfad: tree/master/docs/faq
-Quelle: faq.md
+path: tree/master/docs/de/faq
+source: de/faq.md
 
 # Häufig gestellte Fragen
 ## Was ist der blaue Kasten?
@@ -52,7 +52,7 @@ Fehlt die Konfigurationsdatei? Lade sie [hier](https://docs.magknight.org/img/sk
 
 ## Was macht der VATSIM-Modus?
 
-!!! Achtung "Veraltet"
+!!! warning "Veraltet"
     Der VATSIM-Modus wurde mit Version 1.5.0 entfernt - seine Funktionalität wurde fast vollständig von ACARS ersetzt.
 
 Der VATSIM-Modus aktiviert die Integration mit dem [VATSIM Netzwerk](https://vatsim.net). Er aktiviert die SELCAL-Identifikation, Funk-Übertragungen die die contact-me-Nachrichten nutzen und ein paar andere Funkübertragungsbezogene Fähigkeiten. *Der VATSIM-Modus funktioniert nur mit X-Squawkbox; wegen dem Fehlen der Verfügbarkeit von datarefs sind der Swift-Client und IVAO-Clients nicht unterstützt.*

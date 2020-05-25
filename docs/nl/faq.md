@@ -49,8 +49,8 @@ Ontbreekt het config bestand? [Download het hier.](https://docs.magknight.org/im
 
 ## Wat doet de VATSIM-modus?
 
-!!! warning
-Waarschuwing: De VATSIM-modus is verwijderd in versie 1.5.0 – de functionaliteiten zijn voor het grootste deel overgenomen door ACARS.
+!!! warning "Waarschuwing"
+    De VATSIM-modus is verwijderd in versie 1.5.0 – de functionaliteiten zijn voor het grootste deel overgenomen door ACARS.
 
 De VATSIM-modus schakelt integratie met het [VATSIM-netwerk](https://vatsim.net) in. Het schakelt SELCAL identificatie in, radio uplink door middel van contact-me berichten en andere uplink-gerelateerde functies. *VATSIM-modus werkt alleen met X-Squawkbox; door een gebrek aan dataref beschikbaarheid. De Swift Pilot client en IVAO clients worden niet ondersteund.*
 
