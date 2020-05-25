@@ -32,6 +32,7 @@ nav:
   #  - Getting Started: "flightTutorial.md"
   - Reference:
     - Aircraft Settings: "aircraftSettings.md"
+    - ACARS: "acars.md"
   - About: "about.md"
   
 extra:
