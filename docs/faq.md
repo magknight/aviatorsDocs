@@ -5,6 +5,13 @@ source: faq.md
 ## What is the blue box?
 The blue box is a diagnostics tool for the fctl2 branch, currently running on the Cygnus channel. It's important, and no, you can't turn it off.
 
+## Why does the updater say it is "locked for maintinence"?
+In general, there are 2 reasons:
+* We're actively shipping an update, which takes time - just wait until later
+* There are no updates available on that branch
+
+It is **not** possible to upgrade from 1.4.x to 1.5.0 using the updater. You need to reinstall the 787 from the store.
+
 ## When will ... update release?
 When it's ready...
 
@@ -51,6 +58,18 @@ Missing the config file? Download it [here](https://docs.magknight.org/img/skunk
     VATSIM mode has been removed in the release version of 1.5.0 - it's functionality is mostly replaced by ACARS
 
 VATSIM mode enables intergration with the [VATSIM network](https://vatsim.net). It enables SELCAL identification, radio uplink using contact-me messages, and some other uplink-related features. *VATSIM mode only works with X-Squawkbox; due to a lack of dataref availablilty, the Swift pilot client, and IVAO clients are not supported*
+
+## Do old liveries work on 1.5.0?
+Liveries released since 1.4.0 **will** work with 1.5.0, however we have shipped an updated paintkit with 1.5.0, containing new tail and wing texturing, some fuselage changes and the SATCOM dome. Liveries will need to be updated to the new paintkit to benefit from these improvements, but won't stop working. Aditionally, liveries will need updates to take advantage of the new GE and RR engine models shipped with 1.5.0
+
+## How do I switch engine types?
+Go to the EFB settings page, and find the **ENGINE TYPE** setting. Liveries should ship with an updated liverySettings file that defines the engine type(s) supported by it.
+
+## How do I switch between 1.4.0 and 1.5.0 GE engines?
+Go to the EFB settings page, and find the **LIVERY VERSION** setting. Liveries should ship with an updated liverySettings file that defines the engine type(s) supported by it.
+
+## Can I attatch the flaps lever to an axis?
+No. The flaps lever is not appropriate for use with an axis, as it is not possible to set hard positions on which detent the flaps lever is currently in, nor is it possible to ensure that accidentally knocking the lever does not lead to unintended, potentially flight-ending outcomes. If you feel that your solution that requires flaps on an axis has solutions to these problems, you're welcome to discuss it with us, and we'll point you in the direction of solutions. 
 
 ## Does the 787 work in VR?
 We don't directly support VR, and haven't made any special arrangements to allow it to work. Many users have however reported that the plane does work in VR.
