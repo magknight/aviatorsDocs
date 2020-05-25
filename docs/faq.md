@@ -68,6 +68,9 @@ Go to the EFB settings page, and find the **ENGINE TYPE** setting. Liveries shou
 ## How do I switch between 1.4.0 and 1.5.0 GE engines?
 Go to the EFB settings page, and find the **LIVERY VERSION** setting. Liveries should ship with an updated liverySettings file that defines the engine type(s) supported by it.
 
+## Can I attatch the flaps lever to an axis?
+No. The flaps lever is not appropriate for use with an axis, as it is not possible to set hard positions on which detent the flaps lever is currently in, nor is it possible to ensure that accidentally knocking the lever does not lead to unintended, potentially flight-ending outcomes. If you feel that your solution that requires flaps on an axis has solutions to these problems, you're welcome to discuss it with us, and we'll point you in the direction of solutions. 
+
 ## Does the 787 work in VR?
 We don't directly support VR, and haven't made any special arrangements to allow it to work. Many users have however reported that the plane does work in VR.
 
