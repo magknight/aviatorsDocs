@@ -4,7 +4,7 @@ source: acars.md
 # ACARS
 ## What is it?
 ACARS is a global network that allows aircraft to communicate with ATSUs (Air Traffic Service Units), their airline dispatch, Airport management and more. It can transmit text messages between facilities, with reply capability. More details on the real world system can be found at [SKYbrary](https://www.skybrary.aero/index.php/Aircraft_Communications,_Addressing_and_Reporting_System)
-In the 787: Aviator's Edition, we've implimented a subset of the real ACARS features using the Hoppie network. Hoppie is a ACARS-esque web service managed by Jeroen Hoppenbrouwers, and intergrated into some VATSIM ATS (Air Traffic Service) clients (Such as the EuroScope TOPSKY, vSMR and UAC plugins)
+In the 787: Aviator's Edition, we've implimented a subset of the real ACARS features using the Hoppie network. Hoppie is a ACARS-esque web service managed by Jeroen Hoppenbrouwers, and intergrated into some VATSIM ATS (Air Traffic Service) clients (Such as the EuroScope TOPSKY, vSMR and UAC plugins). At the moment, we have implemented PDC/DCL and METAR/TAF/ATIS request. In the future, we may add full CPDLC and ADS-C capabilities based on the development of ATS clients and user uptake.
 
 !!! tip
     Although Hoppie is not managed by any online networks, its PDC services are normally only available on VATSIM, due to the availability of ATCS clients that support it.

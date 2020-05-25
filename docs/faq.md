@@ -19,7 +19,7 @@ When it's ready...
 Cygnus is the name for our updater-based public beta program. It is not designated as stable, so should only be used if you are comfortable with identifying and reporting bugs. It can be enabled or disabled using the Skunkcraft's Updater "Enable beta channel" box
 
 ## What is Discord?
-We use Discord as our primary means of communication and support for customers. You can access our server at https://magknight.org/discord
+We use Discord as our primary means of communication and support for customers. You can access our server at [https://magknight.org/discord](https://magknight.org/discord)
 
 ## My serial key has run out of activations
 If your key has run out of activations, you can contact us on the forums, social media or by email to add more activations.
