@@ -2,7 +2,7 @@ path: tree/master/docs/nl/faq
 source: nl/faq.md
 
 # Veelgestelde vragen
-*This is a translated version of the English FAQ. Thanks to [@DrFreas](https://github.com/DrFreas) for translating the FAQ.*
+*This is a translated version of the English FAQ. Thanks to @Rubenzxl (discord) for translating the FAQ.*
 
 ## Wat is het blauwe kader?
 Het blauwe kader is een diagnostisch hulpmiddel voor de fctl2 branche, die op dit moment aan de gang is onder de naam Cygnus. Het is belangrijke informatie en je kan het dus niet uitzetten.

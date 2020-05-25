@@ -2,6 +2,8 @@ path: tree/master/docs/de/faq
 source: de/faq.md
 
 # Häufig gestellte Fragen
+*This is a translated version of the English FAQ. Thanks to [@DrFreas](https://github.com/DrFreas) for translating the FAQ.*
+
 ## Was ist der blaue Kasten?
 Der blaue Kasten ist ein Diagnose-Werkzeug für den fctl2-Zweig, der zur Zeit auf dem Cygnus-Kanal läuft. Er ist wichtig, und nein, du kannst ihn nicht abstellen.
 
