@@ -26,14 +26,19 @@ markdown_extensions:
     - meta
 nav:
   - Home: "index.md"
-  - Frequently Asked Questions: "faq.md"
-  - Troubleshooting: "troubleshooting.md"
-  #- Tutorials:
-  #  - Getting Started: "flightTutorial.md"
-  - Reference:
-    - Aircraft Settings: "aircraftSettings.md"
-    - ACARS/COMM: "acars.md"
-  - About: "about.md"
+  - English: 
+    - Frequently Asked Questions: "faq.md"
+    - Troubleshooting: "troubleshooting.md"
+    #- Tutorials:
+    #  - Getting Started: "flightTutorial.md"
+    - Reference:
+      - Aircraft Settings: "aircraftSettings.md"
+      - ACARS/COMM: "acars.md"
+    - About: "about.md"
+  - Deutsch:
+    - Häufig gestellte Fragen: "de/faq.md"
+  - Nederlands:
+    - Veelgestelde vragen: "nl/faq.md"
   
 extra:
   social:
@@ -48,3 +53,4 @@ extra:
 
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+
