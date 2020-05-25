@@ -5,6 +5,13 @@ source: faq.md
 ## What is the blue box?
 The blue box is a diagnostics tool for the fctl2 branch, currently running on the Cygnus channel. It's important, and no, you can't turn it off.
 
+## Why does the updater say it is "locked for maintinence"?
+In general, there are 2 reasons:
+* We're actively shipping an update, which takes time - just wait until later
+* There are no updates available on that branch
+
+It is **not** possible to upgrade from 1.4.x to 1.5.0 using the updater. You need to reinstall the 787 from the store.
+
 ## When will ... update release?
 When it's ready...
 
