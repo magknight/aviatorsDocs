@@ -1,5 +1,5 @@
 path: tree/master/docs/de
-source: de/faq.md
+source: faq.md
 
 # Häufig gestellte Fragen
 *This is a translated version of the English FAQ. Thanks to [@DrFreas](https://github.com/DrFreas) for translating the FAQ.*

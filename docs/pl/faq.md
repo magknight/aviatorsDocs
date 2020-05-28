@@ -1,5 +1,5 @@
 path: tree/master/docs/pl
-source: pl/faq.md
+source: faq.md
 
 # Często Zadawane Pytania
 *This is a translated version of the English FAQ. Thanks to Matt for translating the FAQ.*
@@ -20,10 +20,10 @@ Aktualizacja nie jest możliwa 1.4.x do 1.5.0 za pomocą narzędzia do aktualiza
 ## Kiedy pojawi się kolejna wersja?
 Kiedy skończymy to robić
 
-## co jest Cygnus?
+## Co jest Cygnus?
 To jest nazwa naszego publicznego systemu testowego. Nie oczekuje się, że będzie stabilny, więc będzie kilka połamanych kawałków. Możesz zmienić tryb stabilny na tryb testowy w narzędziu aktualizacji.
 
-## co jest Discord?
+## Co jest Discord?
 Używamy tego jako naszego głównego sposobu komunikacji z naszymi klientami. Możesz dołączyć do tego tutaj. https://magknight.org/discord
 
 ## Mój numer licencji wygasł.
@@ -57,7 +57,7 @@ Jeśli brakuje pliku konfiguracyjnego, możesz go pobrać [tutaj](https://forums
 
 VATSIM mode enables intergration with the [VATSIM network](https://vatsim.net). It enables SELCAL identification, radio uplink using contact-me messages, and some other uplink-related features. *VATSIM mode only works with X-Squawkbox; due to a lack of dataref availablilty, the Swift pilot client, and IVAO clients are not supported*
 
-## czy stara farba działa w aktualnej wersji?
+## Czy stara farba działa w aktualnej wersji?
 Nie, Wypuściliśmy nowy zestaw do malowania.Aby użyć farby w wersji 1.5.0, musisz zaktualizować farbę z wersji 1.4.0. Farba będzie również musiała zostać zmieniona, aby użyć obu typów silnika.
 
 ## Jak zmienić silnik?

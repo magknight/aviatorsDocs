@@ -1,5 +1,5 @@
 path: tree/master/docs/nl
-source: nl/faq.md
+source: faq.md
 
 # Veelgestelde vragen
 *This is a translated version of the English FAQ. Thanks to @Rubenzxl (discord) for translating the FAQ.*
