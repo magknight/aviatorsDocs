@@ -1,4 +1,4 @@
-path: tree/master/docs/faq
+path: tree/master/docs/
 source: faq.md
 
 # Frequently Asked Questions

@@ -1,4 +1,4 @@
-path: tree/master/docs/flightTutorial
+path: tree/master/docs/
 source: flightTutorial.md
 
 # 787 Full flight tutorial

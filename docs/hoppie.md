@@ -1,3 +1,6 @@
+path: tree/master/docs/
+source: hoppie.md
+# Intergrating with Hoppie
 The existing documentation for the Hoppie network is somewhat sparce, so here are some of my findings from developing the 787 ACARS features.
 
 The live web server is at ``http://www.hoppie.nl/acars/system/connect.html``.
