@@ -1,4 +1,4 @@
-path: tree/master/docs/de/faq
+path: tree/master/docs/de
 source: de/faq.md
 
 # Häufig gestellte Fragen

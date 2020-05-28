@@ -1,4 +1,4 @@
-path: tree/master/docs/nl/faq
+path: tree/master/docs/nl
 source: nl/faq.md
 
 # Veelgestelde vragen
