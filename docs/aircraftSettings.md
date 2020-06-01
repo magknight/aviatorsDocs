@@ -51,7 +51,8 @@ This file contains user settings, that are stored globally. This file won't be o
         "pauseAtTod": false,
         "acarsRemoteServer": "http://www.hoppie.nl/acars/system/connect.html",
         "acarsEnabled": false,
-        "acarsLogonCode": ""
+        "acarsLogonCode": "",
+        "paMasterVolume": 80
     }
 }
 ```
@@ -152,6 +153,11 @@ This file contains user settings, that are stored globally. This file won't be o
 #### New in 1.5.0: acarsLogonCode
 * Default ``""``
 * Personal HOPPIE logon code
+
+#### New in 1.5.1: paMasterVolume
+* Default ``80``
+* PA master volume setting chosen in TCP
+* Technically supports values > 100, although not recommended
 
 ## liverySettings.json
 This file contains user settings, that are stored on a per-livery basis. This file will only be overritten by the updater for default liveries. Only settings that are defined below are able to be used by the settings system.
