@@ -51,7 +51,9 @@ The SkunkCrafts updater can be found [here](https://forums.x-plane.org/index.php
 
 You'll find the changelog in your aircraft's folder.
 
-Missing the config file? Download it [here](https://docs.magknight.org/img/skunkcrafts_updater.zip). You'll need to place it in your aircraft's root directory.
+!!! warning "Updating to 1.5.1+"
+    Download the cfg file [here](https://docs.magknight.org/img/skunkcrafts_updater.zip) to update. **Do not put this file in 1.4.x installs, your aircraft will become broken**
+    Extract the .cfg file to your 787 folder
 
 ## What does VATSIM mode do?
 
