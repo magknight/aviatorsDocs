@@ -34,6 +34,7 @@ nav:
       - Reference:
           - Aircraft Settings: "aircraftSettings.md"
           - ACARS/COMM: "acars.md"
+          - Extreme Airport Data: "extremeData.md"
       - About: "about.md"
   - Deutsch:
       - Häufig gestellte Fragen: "de/faq.md"
