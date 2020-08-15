@@ -14,7 +14,7 @@ The example is Gatwick, because of course it is.
 ```json
 EGKK.json
 {
-    "elevation": "203",
+    "elevation": 203,
     "betterName": "London Gatwick",
     "meters": false,
     "dataSource": "NATS/UK AIP",
@@ -25,12 +25,11 @@ EGKK.json
             "name": "26L",
             "heading": 258,
             "slope": 0.06,
-            "tora": "10679",
-            "toda": "11152",
-            "asda": "10879",
-            "lda": "9288",
+            "tora": 10679,
+            "toda": 11152,
+            "asda": 10879,
+            "lda": 9288,
             "lineupTurn": 90,
-            "updated": 20200605,
             "obstacles": [
                 {
                     "height": 3,
@@ -57,12 +56,11 @@ EGKK.json
             "name": "08R",
             "heading": 78,
             "slope": -0.06,
-            "tora": "10364",
-            "toda": "10863",
-            "asda": "10607",
-            "lda": "9075",
+            "tora": 10364,
+            "toda": 10863,
+            "asda": 10607,
+            "lda": 9075,
             "lineupTurn": 90,
-            "updated": 20200605,
             "obstacles": [],
             "intx": [
                 {
@@ -79,12 +77,11 @@ EGKK.json
             "name": "26R",
             "heading": 258,
             "slope": 0.04,
-            "tora": "8415",
-            "toda": "8868",
-            "asda": "8415",
-            "lda": "7047",
+            "tora": 8415,
+            "toda": 8868,
+            "asda": 8415,
+            "lda": 7047,
             "lineupTurn": 90,
-            "updated": 20200605,
             "obstacles": [],
             "intx": []
         },
@@ -92,12 +89,11 @@ EGKK.json
             "name": "08L",
             "heading": 78,
             "slope": -0.04,
-            "tora": "8415",
-            "toda": "9974",
-            "asda": "8415",
-            "lda": "7389",
+            "tora": 8415,
+            "toda": 9974,
+            "asda": 8415,
+            "lda": 7389",
             "lineupTurn": 0,
-            "updated": 20200605,
             "obstacles": [],
             "intx": []
         }
