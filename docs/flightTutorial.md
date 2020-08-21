@@ -2,6 +2,8 @@ path: tree/master/docs/
 source: flightTutorial.md
 
 # 787 Full flight tutorial
+!!! warning "Legacy" This tutorial is designed for the 787: Aviator's Edition version v1.2.4 - It is no longer updated, and not suitable for use with current release versions. 
+
 A getting-started tutorial, detailing the main steps to make your first flight in the Magknight **787**: Aviator's Edition. It doesn't include details on using the EFB for performance data, or how advanced systems work.
 ## Route Information
 **All weights are given in METRIC units**
