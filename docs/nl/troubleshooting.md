@@ -2,6 +2,8 @@ path: tree/master/docs/nl/
 source: troubleshooting.md
 
 # Probleemoplossen
+*This is a translated version of the English troubleshooting page. Thanks to @Into_the_Rik (discord) for translation.*
+
 ## Iemand vroeg om mijn logbestand - Wat is een logbestand?
 Als je om hulp vraagt met een technisch probleem, dan kan het gebeuren dat iemand naar je logbestand vraagt (ook bekend als ``Log.txt``)- Dit is een bestand dat x-plane schrijft en bevat fouten die zich hebben voorgedaan.   
 
