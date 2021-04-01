@@ -28,8 +28,11 @@ If your key has run out of activations, you can contact us on the forums, social
 ## How do I enable rain effects?
 Rain effects, provided by librain are enabled in the EFB's settings page. The setting is located on page 2.
 
+!!! warning "Legacy" 
+    Rain effects are not supported by X-Plane 11.50 at this time
+
 ## How do I trigger cabin announcements?
-Announcements are operated from the COMM pages within the MFDs. To activate this page, click COMM on one of the MFD control sets, then click CABIN. 
+Announcements are operated from the COMM pages within the MFDs. To activate this page, click COMM on one of the MFD control sets, then click CABIN. Alternatively, they are issued automatically by checklists.
 
 ## Why are my MCP/Radios screens black?
 When starting from cold and dark, the MCP and Pedestal backlighting is turned to minimum setting. This rotary knob also controls the screen brightness of the MCP and radios. 
@@ -71,7 +74,7 @@ Go to the EFB settings page, and find the **LIVERY VERSION** setting. Liveries s
 No. The flaps lever is not appropriate for use with an axis, as it is not possible to set hard positions on which detent the flaps lever is currently in, nor is it possible to ensure that accidentally knocking the lever does not lead to unintended, potentially flight-ending outcomes. If you feel that your solution that requires flaps on an axis has solutions to these problems, you're welcome to discuss it with us, and we'll point you in the direction of solutions. 
 
 ## Does the 787 work in VR?
-We don't directly support VR, and haven't made any special arrangements to allow it to work. Many users have however reported that the plane does work in VR.
+We **do not** directly support VR, and haven't made any special arrangements to allow it to work. Many users have however reported that the plane does work in VR.
 
 We recommend these modifications if you'd like to use the plane in VR:
 
