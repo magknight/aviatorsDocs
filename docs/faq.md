@@ -58,8 +58,8 @@ You'll find the changelog in your aircraft's folder.
 
 VATSIM mode enables intergration with the [VATSIM network](https://vatsim.net). It enables SELCAL identification, radio uplink using contact-me messages, and some other uplink-related features. *VATSIM mode only works with X-Squawkbox; due to a lack of dataref availablilty, the Swift pilot client, and IVAO clients are not supported*
 
-## Do old liveries work on 1.5.0?
-Liveries released since 1.4.0 **will** work with 1.5.0, however we have shipped an updated paintkit with 1.5.0, containing new tail and wing texturing, some fuselage changes and the SATCOM dome. Liveries will need to be updated to the new paintkit to benefit from these improvements, but won't stop working. Aditionally, liveries will need updates to take advantage of the new GE and RR engine models shipped with 1.5.0
+## Do old liveries work on 1.6.7?
+Liveries released since 1.4.0 **will** work with 1.6.7, however we have shipped an updated paintkit with 1.6.7, containing new tail and wing texturing, a new fuselage model and more. Liveries will need to be updated to the new paintkit to benefit from these improvements, but won't stop working before the release of 1.8.0. Aditionally, liveries will need updates to take advantage of the new GE and RR engine models shipped with 1.5.0
 
 ## How do I switch engine types?
 Go to the EFB settings page, and find the **ENGINE TYPE** setting. Liveries should ship with an updated liverySettings file that defines the engine type(s) supported by it.
