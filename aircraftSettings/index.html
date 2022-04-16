@@ -1,0 +1,1472 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the Magknight 787: Aviator's Edition for X-Plane 11, now stored in the cloud">
+      
+      
+        <meta name="author" content="magknight">
+      
+      
+        <link rel="canonical" href="https://docs.magknight.org/aircraftSettings/">
+      
+      <link rel="icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Aircraft Settings - Magknight Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Source Code Pro"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aircraftlivery-settings-files" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Magknight Documentation" class="md-header__button md-logo" aria-label="Magknight Documentation" data-md-component="logo">
+      
+  <img src="../img/webIcon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Magknight Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Aircraft Settings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/magknight/aviatorsDocs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../faq/" class="md-tabs__link md-tabs__link--active">
+        English
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../de/faq/" class="md-tabs__link">
+        Deutsch
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nl/faq/" class="md-tabs__link">
+        Nederlands
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pl/faq/" class="md-tabs__link">
+        Polski
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Magknight Documentation" class="md-nav__button md-logo" aria-label="Magknight Documentation" data-md-component="logo">
+      
+  <img src="../img/webIcon.svg" alt="logo">
+
+    </a>
+    Magknight Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/magknight/aviatorsDocs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          English
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="English" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          English
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reference" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Aircraft Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Aircraft Settings
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#global-settings" class="md-nav__link">
+    Global settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Global settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#defaultglobalsettingsjson" class="md-nav__link">
+    defaultGlobalSettings.json
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defaultliverysettingsjson" class="md-nav__link">
+    defaultLiverySettings.json
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#globalsettingsjson" class="md-nav__link">
+    globalSettings.json
+  </a>
+  
+    <nav class="md-nav" aria-label="globalSettings.json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    Structure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    comments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aircraftconfig" class="md-nav__link">
+    aircraftConfig
+  </a>
+  
+    <nav class="md-nav" aria-label="aircraftConfig">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#customcursordisabled" class="md-nav__link">
+    customCursorDisabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instantirsalign" class="md-nav__link">
+    instantIrsAlign
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instantfuelload" class="md-nav__link">
+    instantFuelLoad
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vatsim" class="md-nav__link">
+    vatsim
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erroroverlays" class="md-nav__link">
+    errorOverlays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistantfailures" class="md-nav__link">
+    persistantFailures
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#helpfulpointers" class="md-nav__link">
+    helpfulPointers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-124-usetiller" class="md-nav__link">
+    New in 1.2.4: useTiller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-125-userolltiller" class="md-nav__link">
+    New in 1.2.5: useRollTiller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-130-startupwindow" class="md-nav__link">
+    New in 1.3.0: startupWindow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-142-killcockpitglass" class="md-nav__link">
+    New in 1.4.2: killCockpitGlass
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-142-pauseattod" class="md-nav__link">
+    New in 1.4.2: pauseAtTod
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-142-killcabinglass" class="md-nav__link">
+    New in 1.4.2: killCabinGlass
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-142-killseats" class="md-nav__link">
+    New in 1.4.2: killSeats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-142-raineffect" class="md-nav__link">
+    New in 1.4.2: rainEffect
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fnew-in-146-usepitchbrake" class="md-nav__link">
+    fNew in 1.4.6: usePitchBrake
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-1410-use833" class="md-nav__link">
+    New in 1.4.10: use833
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-acarsremoteserver" class="md-nav__link">
+    New in 1.5.0: acarsRemoteServer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-acarsenabled" class="md-nav__link">
+    New in 1.5.0: acarsEnabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-acarslogoncode" class="md-nav__link">
+    New in 1.5.0: acarsLogonCode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-151-pamastervolume" class="md-nav__link">
+    New in 1.5.1: paMasterVolume
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liverysettingsjson" class="md-nav__link">
+    liverySettings.json
+  </a>
+  
+    <nav class="md-nav" aria-label="liverySettings.json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure_1" class="md-nav__link">
+    Structure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments_1" class="md-nav__link">
+    comments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airlineconfig" class="md-nav__link">
+    airlineConfig
+  </a>
+  
+    <nav class="md-nav" aria-label="airlineConfig">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-in-140-gpws-callouts" class="md-nav__link">
+    New in 1.4.0: GPWS callouts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-140-pm-callouts" class="md-nav__link">
+    New in 1.4.0: PM callouts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defaultbarohpa" class="md-nav__link">
+    defaultBaroHpa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usemetersl" class="md-nav__link">
+    useMetersL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usemetersr" class="md-nav__link">
+    useMetersR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defaultweightkgs" class="md-nav__link">
+    defaultWeightKgs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icaoid" class="md-nav__link">
+    icaoId
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailnumber" class="md-nav__link">
+    tailNumber
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selcalcode" class="md-nav__link">
+    selcalCode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airlineid" class="md-nav__link">
+    airlineId
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-142-cabinsoundpack" class="md-nav__link">
+    New in 1.4.2: cabinSoundpack
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-1412-headinghorizon" class="md-nav__link">
+    New in 1.4.12: headingHorizon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-userrengines" class="md-nav__link">
+    New in 1.5.0: useRREngines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-pfdaoaindicator" class="md-nav__link">
+    New in 1.5.0: pfdAOAIndicator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-satcomdishdisabled" class="md-nav__link">
+    New in 1.5.0: satcomDishDisabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-in-150-liveryversion" class="md-nav__link">
+    New in 1.5.0: liveryVersion
+  </a>
+  
+    <nav class="md-nav" aria-label="New in 1.5.0: liveryVersion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    0
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acars/" class="md-nav__link">
+        ACARS/COMM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../extremeData/" class="md-nav__link">
+        Extreme Airport Data
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Deutsch
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Deutsch" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Deutsch
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../de/faq/" class="md-nav__link">
+        Häufig gestellte Fragen
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Nederlands
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Nederlands" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Nederlands
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nl/faq/" class="md-nav__link">
+        Veelgestelde vragen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nl/troubleshooting/" class="md-nav__link">
+        Probleemoplossen
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Polski
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Polski" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Polski
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pl/faq/" class="md-nav__link">
+        Często Zadawane Pytania
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/magknight/aviatorsDocs/edit/master/docs/aircraftSettings.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="aircraftlivery-settings-files">Aircraft/Livery settings files<a class="headerlink" href="#aircraftlivery-settings-files" title="Permanent link">&para;</a></h1>
+<p>From version 1.1.9 onwards, the <strong>787</strong>: Aviator's Edition supports per-livery, and per-variant configurations, handled by settings files located in the root of the livery folder, and in the settings folder in the root of the aircraft folder.</p>
+<h2 id="global-settings">Global settings<a class="headerlink" href="#global-settings" title="Permanent link">&para;</a></h2>
+<p>Global settings are stored in the <code>./settings</code>[^1] folder. In this folder, you'll find 3 files: </p>
+<pre><code>defaultGlobalSettings.json
+defaultLiverySettings.json
+globalSettings.json
+</code></pre>
+<p>If <code>defaultGlobalSettings.json</code> is missing, the aircraft <strong>will crash on startup</strong>. The other two files will be auto-generated by the plane if they are missing.
+[^1]: For example, <code>C:\X-Plane 11/Aircraft/Magknight787/settings/</code></p>
+<h3 id="defaultglobalsettingsjson">defaultGlobalSettings.json<a class="headerlink" href="#defaultglobalsettingsjson" title="Permanent link">&para;</a></h3>
+<p>This file contains the default settings, both those that are stored globally and the default livery settings. The settings here <strong>will be</strong> overwritten by the updater on each launch, so the file should not be edited. All other settings files override the settings of this file; it simply acts as a backup to these files.</p>
+<h3 id="defaultliverysettingsjson">defaultLiverySettings.json<a class="headerlink" href="#defaultliverysettingsjson" title="Permanent link">&para;</a></h3>
+<p>This file contains the settings for the default livery. As with all livery settings included with the aicraft, it will be overwritten by the updater during each minor or major release. We don't reccomend changing settings in this file.</p>
+<h2 id="globalsettingsjson">globalSettings.json<a class="headerlink" href="#globalsettingsjson" title="Permanent link">&para;</a></h2>
+<p>This file contains user settings, that are stored globally. This file won't be overwritten by the updater. Only settings that are defined below are able to be used by the settings system.</p>
+<h3 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h3>
+<pre><code class="language-json">{
+    &quot;comments&quot;: [
+        &quot;This settings file covers all configurable aspects of the 787. Items in the 'defaultAirlineConfig' section are overridden by a settings/liverySettings.json file&quot;,
+        &quot;in the current livery, if it exists. If this does not exist, then these values are used. If a setting that is expected is not present here, then values from&quot;,
+        &quot;defaultGlobalSettings.json is used.&quot;
+    ],
+    &quot;aircraftConfig&quot;: {
+        &quot;customCursorDisabled&quot;: false,
+        &quot;instantIrsAlign&quot;: false,
+        &quot;instantFuelLoad&quot;: false,
+        &quot;vatsim&quot;: false,
+        &quot;errorOverlays&quot;: true,
+        &quot;persistantFailures&quot;: false,
+        &quot;helpfulPointers&quot;: true,
+        &quot;sharedBaro&quot;: true,
+        &quot;useTiller&quot;: false,
+        &quot;useRollTiller&quot;: false,
+        &quot;startupWindow&quot;: true,
+        &quot;killCockpitGlass&quot;: false,
+        &quot;killSeats&quot;: false,
+        &quot;killCabinGlass&quot;: false,
+        &quot;rainEffect&quot;: false,
+        &quot;usePitchBrake&quot;: false,
+        &quot;use833&quot;: false,
+        &quot;pauseAtTod&quot;: false,
+        &quot;acarsRemoteServer&quot;: &quot;http://www.hoppie.nl/acars/system/connect.html&quot;,
+        &quot;acarsEnabled&quot;: false,
+        &quot;acarsLogonCode&quot;: &quot;&quot;,
+        &quot;paMasterVolume&quot;: 80
+    }
+}
+</code></pre>
+<h3 id="comments">comments<a class="headerlink" href="#comments" title="Permanent link">&para;</a></h3>
+<ul>
+<li>This is an array of freetext, that is ignored by the aircraft when the file is loaded.</li>
+</ul>
+<h3 id="aircraftconfig">aircraftConfig<a class="headerlink" href="#aircraftconfig" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Contains settings that are imported to the aircraft's global settings table on load.</li>
+</ul>
+<h4 id="customcursordisabled">customCursorDisabled<a class="headerlink" href="#customcursordisabled" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code>.</li>
+<li>Disables the custom cursor on the EFB/MFD</li>
+</ul>
+<p>!!! bug
+    Not fully implimented yet</p>
+<h4 id="instantirsalign">instantIrsAlign<a class="headerlink" href="#instantirsalign" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code> </li>
+<li>Allows the IRS to align instantly</li>
+</ul>
+<h4 id="instantfuelload">instantFuelLoad<a class="headerlink" href="#instantfuelload" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code>. </li>
+<li>Causes fuel to load instantly</li>
+</ul>
+<p>!!! warning
+    Not implemented yet. Fuel always loads instantly (1.1.9)</p>
+<h4 id="vatsim">vatsim<a class="headerlink" href="#vatsim" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code> </li>
+<li>Enables VATSIM mode. See <a href="./vatsim">here</a> for more details</li>
+</ul>
+<p>!!! warning "Legacy"
+    VATSIM mode has been removed in the release version of 1.5.0 - it's functionality is mostly replaced by ACARS</p>
+<h4 id="erroroverlays">errorOverlays<a class="headerlink" href="#erroroverlays" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>true</code> </li>
+<li>Controls whether startup overlay and error overlays are enabled</li>
+</ul>
+<h4 id="persistantfailures">persistantFailures<a class="headerlink" href="#persistantfailures" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code> </li>
+<li>Not implimented; for future use.</li>
+</ul>
+<h4 id="helpfulpointers">helpfulPointers<a class="headerlink" href="#helpfulpointers" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>true</code> </li>
+<li>Controls whether the helpful pointers popups are enabled.</li>
+</ul>
+<h4 id="new-in-124-usetiller">New in 1.2.4: useTiller<a class="headerlink" href="#new-in-124-usetiller" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Controls whether the tiller axis is used for ground steering</li>
+</ul>
+<h4 id="new-in-125-userolltiller">New in 1.2.5: useRollTiller<a class="headerlink" href="#new-in-125-userolltiller" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Controls whether the roll axis is used in place of the rudder for ground steering</li>
+</ul>
+<h4 id="new-in-130-startupwindow">New in 1.3.0: startupWindow<a class="headerlink" href="#new-in-130-startupwindow" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Controls whether the first startup window opens</li>
+</ul>
+<h4 id="new-in-142-killcockpitglass">New in 1.4.2: killCockpitGlass<a class="headerlink" href="#new-in-142-killcockpitglass" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Removes cockpit glass/reflections for improved performance on low-end systems</li>
+</ul>
+<h4 id="new-in-142-pauseattod">New in 1.4.2: pauseAtTod<a class="headerlink" href="#new-in-142-pauseattod" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Pause at top-of-descent</li>
+</ul>
+<h4 id="new-in-142-killcabinglass">New in 1.4.2: killCabinGlass<a class="headerlink" href="#new-in-142-killcabinglass" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Removes cabin glass/reflections for improved performance on low-end systems</li>
+</ul>
+<h4 id="new-in-142-killseats">New in 1.4.2: killSeats<a class="headerlink" href="#new-in-142-killseats" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Removes cabin seats for improved performance on low-end systems</li>
+</ul>
+<h4 id="new-in-142-raineffect">New in 1.4.2: rainEffect<a class="headerlink" href="#new-in-142-raineffect" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables libRain rain effects</li>
+</ul>
+<p>!!! warning "libRain is not compatible with X-Plane 11.50 at this time"</p>
+<h4 id="fnew-in-146-usepitchbrake">fNew in 1.4.6: usePitchBrake<a class="headerlink" href="#fnew-in-146-usepitchbrake" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables use of pitch axis for braking on ground (below 35kts)</li>
+</ul>
+<h4 id="new-in-1410-use833">New in 1.4.10: use833<a class="headerlink" href="#new-in-1410-use833" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables 8.33kHz frequency spacing in TCPs and COMM</li>
+</ul>
+<h4 id="new-in-150-acarsremoteserver">New in 1.5.0: acarsRemoteServer<a class="headerlink" href="#new-in-150-acarsremoteserver" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>"http://www.hoppie.nl/acars/system/connect.html"</code></li>
+<li>Remote serve for ACARS, default public HOPPIE, although supports both local HOPPIE and other HOPPIE-compatible remotes</li>
+</ul>
+<h4 id="new-in-150-acarsenabled">New in 1.5.0: acarsEnabled<a class="headerlink" href="#new-in-150-acarsenabled" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables ACARS system using HOPPIE in COMM</li>
+</ul>
+<h4 id="new-in-150-acarslogoncode">New in 1.5.0: acarsLogonCode<a class="headerlink" href="#new-in-150-acarslogoncode" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>""</code></li>
+<li>Personal HOPPIE logon code</li>
+</ul>
+<h4 id="new-in-151-pamastervolume">New in 1.5.1: paMasterVolume<a class="headerlink" href="#new-in-151-pamastervolume" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>80</code></li>
+<li>PA master volume setting chosen in TCP</li>
+<li>Technically supports values &gt; 100, although not recommended</li>
+</ul>
+<h2 id="liverysettingsjson">liverySettings.json<a class="headerlink" href="#liverysettingsjson" title="Permanent link">&para;</a></h2>
+<p>This file contains user settings, that are stored on a per-livery basis. This file will only be overritten by the updater for default liveries. Only settings that are defined below are able to be used by the settings system.</p>
+<h3 id="structure_1">Structure<a class="headerlink" href="#structure_1" title="Permanent link">&para;</a></h3>
+<pre><code class="language-json">{
+     &quot;comments&quot;: [
+        &quot;This settings file is the settings file for the default livery&quot;
+    ],
+    &quot;airlineConfig&quot;: {
+
+        &quot;gpwsCallouts&quot;: {
+            &quot;40&quot;: false,
+            &quot;10&quot;: false,
+            &quot;50&quot;: false,
+            &quot;2500&quot;: false,
+            &quot;400&quot;: false,
+            &quot;1000&quot;: false,
+            &quot;500&quot;: false,
+            &quot;20&quot;: false,
+            &quot;30&quot;: false,
+            &quot;100&quot;: false,
+            &quot;200&quot;: false,
+            &quot;300&quot;: false
+        },
+        &quot;pmCallouts&quot;: {
+            &quot;400&quot;: false,
+            &quot;1000&quot;: false,
+            &quot;1000Stabilized&quot;: false,
+            &quot;rotate&quot;: false,
+            &quot;1000ToGo&quot;: false,
+            &quot;80kts&quot;: false,
+            &quot;v1&quot;: false
+        },
+        &quot;defaultBaroHpa&quot;: true,
+        &quot;useMetersL&quot;: false,
+        &quot;defaultWeightKgs&quot;: false,
+        &quot;icaoId&quot;: &quot;4071C0&quot;,
+        &quot;tailNumber&quot;: &quot;G-TUIA&quot;,
+        &quot;selcalCode&quot;: &quot;HLGR&quot;,
+        &quot;useMetersR&quot;: false,
+        &quot;airlineId&quot;: &quot;BAW&quot;,
+        &quot;cabinSoundpack&quot;: &quot;default&quot;,
+        &quot;headingHorizon&quot;: false,
+        &quot;useRREngines&quot;: false,
+        &quot;pfdAOAIndicator&quot;: false,
+        &quot;liveryVersion&quot;: 0,
+        &quot;satcomDishDisabled&quot;: true,
+    }
+}
+</code></pre>
+<h3 id="comments_1">comments<a class="headerlink" href="#comments_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>This is an array of freetext, that is ignored by the aircraft when the file is loaded.</li>
+</ul>
+<h3 id="airlineconfig">airlineConfig<a class="headerlink" href="#airlineconfig" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Contains settings that are imported to the aircraft's livery settings table on load.</li>
+</ul>
+<h4 id="new-in-140-gpws-callouts">New in 1.4.0: GPWS callouts<a class="headerlink" href="#new-in-140-gpws-callouts" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Sub-object for GPWS callouts</li>
+<li>Defaults to <code>500, 50, 30, 10</code></li>
+</ul>
+<p>!!! warning
+    Not backwards compatible with aircraft versions &lt; 1.3.0</p>
+<h4 id="new-in-140-pm-callouts">New in 1.4.0: PM callouts<a class="headerlink" href="#new-in-140-pm-callouts" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Sub-object for Pilot Monitoring callouts</li>
+<li>Defaults to <code>400, 1000, rotate, 80kts, v1</code></li>
+</ul>
+<p>!!! warning
+    Not backwards compatible with aircraft versions &lt; 1.3.0</p>
+<h4 id="defaultbarohpa">defaultBaroHpa<a class="headerlink" href="#defaultbarohpa" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>true</code> </li>
+<li>Controls whether the baro is by default set to HPA (<code>true</code>) or inHg (<code>false</code>)</li>
+</ul>
+<h4 id="usemetersl">useMetersL<a class="headerlink" href="#usemetersl" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code> </li>
+<li>Controls whether the aircraft systems are set to use meters for altitude or not</li>
+<li>Affects left PFD/HUD/MFDs/Autopilot</li>
+</ul>
+<h4 id="usemetersr">useMetersR<a class="headerlink" href="#usemetersr" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code> </li>
+<li>Controls whether the aircraft systems are set to use meters for altitude or not</li>
+<li>Affects right PFD/HUD/MFDs/Autopilot</li>
+</ul>
+<h4 id="defaultweightkgs">defaultWeightKgs<a class="headerlink" href="#defaultweightkgs" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>true</code> </li>
+<li>Controls whether weights are shown in kilograms (<code>true</code>) or lbs (<code>false</code>)</li>
+</ul>
+<h4 id="icaoid">icaoId<a class="headerlink" href="#icaoid" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>"4071C0"</code> </li>
+<li>ICAO mode S transponder code</li>
+</ul>
+<h4 id="tailnumber">tailNumber<a class="headerlink" href="#tailnumber" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>"G-TUIK"</code> </li>
+<li>Aircraft's tail number/registration</li>
+</ul>
+<h4 id="selcalcode">selcalCode<a class="headerlink" href="#selcalcode" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>"HLGR"</code></li>
+<li>Selcal code used for identification with CPDLC/HF systems in VATSIM mode.</li>
+<li>Format is <code>AABB</code> with no <code>-</code></li>
+</ul>
+<h4 id="airlineid">airlineId<a class="headerlink" href="#airlineid" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>"TOM"</code></li>
+<li>ICAO airline type code, used for internal systems</li>
+</ul>
+<h4 id="new-in-142-cabinsoundpack">New in 1.4.2: cabinSoundpack<a class="headerlink" href="#new-in-142-cabinsoundpack" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>"default"</code></li>
+<li>Changes the soundpack id used for the CABIN PA</li>
+<li>Value is name of folder in <code>787/soundpacks/[name]/</code></li>
+</ul>
+<h4 id="new-in-1412-headinghorizon">New in 1.4.12: headingHorizon<a class="headerlink" href="#new-in-1412-headinghorizon" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables the company option for a heading display on the artifical horizon</li>
+</ul>
+<h4 id="new-in-150-userrengines">New in 1.5.0: useRREngines<a class="headerlink" href="#new-in-150-userrengines" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables RR engines</li>
+</ul>
+<h4 id="new-in-150-pfdaoaindicator">New in 1.5.0: pfdAOAIndicator<a class="headerlink" href="#new-in-150-pfdaoaindicator" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>false</code></li>
+<li>Enables the company option for a PFD AOA indicator</li>
+</ul>
+<h4 id="new-in-150-satcomdishdisabled">New in 1.5.0: satcomDishDisabled<a class="headerlink" href="#new-in-150-satcomdishdisabled" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>true</code></li>
+<li>Enables the company option for SATCOM dish on the top of the fuselage</li>
+</ul>
+<h4 id="new-in-150-liveryversion">New in 1.5.0: liveryVersion<a class="headerlink" href="#new-in-150-liveryversion" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Default <code>0</code></li>
+<li>Sets the version that the livery is designed against, using the following options:</li>
+</ul>
+<h5 id="0">0<a class="headerlink" href="#0" title="Permanent link">&para;</a></h5>
+<ul>
+<li>1.4.0 GE engines or 1.5.0 RR engines, 1.4.0 fuselage</li>
+</ul>
+<h5 id="1">1<a class="headerlink" href="#1" title="Permanent link">&para;</a></h5>
+<ul>
+<li>1.5.0 GE engines or 1.5.0 RR engines, 1.4.0 fuselage</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../troubleshooting/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Troubleshooting" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Troubleshooting
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../acars/" class="md-footer__link md-footer__link--next" aria-label="Next: ACARS/COMM" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              ACARS/COMM
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      magknight
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="http://magknight.org" target="_blank" rel="noopener" title="magknight.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.1-20.4-4.2-41.8-4.2-64 0-22.2 2.1-43.6 4.2-64h185.4c2.1 20.4 3.3 41.8 3.3 64zm151.9-64c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42.9 3.2-64 0-22-1.1-43.4-3.2-64h123.1zm-10.5-32H376.7c-10-63.86-29.8-117.38-55.3-151.558C399.8 29.09 463.4 85.94 493.4 160zm-149.1 0H167.7c6.1-36.4 15.5-68.62 27-94.65 10.5-23.61 22.2-40.74 33.5-51.54C239.4 3.178 248.7 0 256 0c7.3 0 16.6 3.178 27.8 13.81 11.3 10.8 23 27.93 33.5 51.54 11.5 26.03 20.9 58.25 27 94.65zm-325.69 0C48.59 85.94 112.2 29.09 190.6 8.442 165.1 42.62 145.3 96.14 135.3 160H18.61zm112.59 32c-2.1 20.6-4.1 42-4.1 64 0 21.1 2 43.4 4.1 64H8.065C2.8 299.5 0 278.1 0 256s2.8-43.5 8.065-64H131.2zm63.5 254.6c-11.5-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.7-22.2 40.8-33.5 51.6-11.2 10.6-20.5 13.8-28.7 13.8-6.4 0-15.7-3.2-26.9-13.8-11.3-10.8-23-27.9-33.5-51.6zm-4.1 57C112.2 482.9 48.59 426.1 18.61 352H135.3c10 63.9 29.8 117.4 55.3 151.6zm130.8 0c25.5-34.2 45.3-87.7 55.3-151.6h116.7c-30 74.1-93.6 130.9-172 151.6z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/magknightav" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/magknightAv" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/magknight/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "toc.integrate"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+    
+  </body>
+</html>
