@@ -9,33 +9,42 @@ copyright: "magknight"
 theme:
   name: "material"
   language: "en"
-  shortcuts:
-    help: 191 # ?
-    next: 78 # n
-    previous: 80 # p
-    search: 83 # s
-  custom_dir: "material"
+  logo: img/webIcon.svg
+  favicon: img/favicon.png
+  font:
+    text: Source Sans Pro
+    code: Source Code Pro
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - toc.integrate
+
 markdown_extensions:
-  - admonition
-  - codehilite
-  - footnotes
   - toc:
-      permalink: True
-      separator: "_"
-  - pymdownx.details
-  - meta
+      permalink: true
+
+# markdown_extensions:
+  # - admonition
+  # - codehilite
+  # - footnotes
+  # - toc:
+  #     permalink: True
+  #     separator: "_"
+  # - pymdownx.details
+  # - meta
+
+
 nav:
-  - Home: "index.md"
   - English:
-      - Frequently Asked Questions: "faq.md"
-      - Troubleshooting: "troubleshooting.md"
-      #- Tutorials:
-      #  - Getting Started: "flightTutorial.md"
-      - Reference:
-          - Aircraft Settings: "aircraftSettings.md"
-          - ACARS/COMM: "acars.md"
-          - Extreme Airport Data: "extremeData.md"
-      - About: "about.md"
+    - Frequently Asked Questions: "faq.md"
+    - Troubleshooting: "troubleshooting.md"
+    #- Tutorials:
+    #  - Getting Started: "flightTutorial.md"
+    - Reference:
+        - Aircraft Settings: "aircraftSettings.md"
+        - ACARS/COMM: "acars.md"
+        - Extreme Airport Data: "extremeData.md"
+    - About: "about.md"
   - Deutsch:
       - Häufig gestellte Fragen: "de/faq.md"
   - Nederlands:
@@ -55,5 +64,5 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/magknight/
 
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+extra_css:
+  - stylesheets/extra.css
